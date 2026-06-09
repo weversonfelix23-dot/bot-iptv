@@ -9,12 +9,13 @@ import {
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
-  makeInMemoryStore,
+ 
   proto,
   getContentType,
   WASocket,
   delay
 } from "@whiskeysockets/baileys";
+import makeInMemoryStore from "@whiskeysockets/baileys/store";
 import * as fs from "fs";
 import { Boom } from "@hapi/boom";
 
